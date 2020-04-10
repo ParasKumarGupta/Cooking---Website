@@ -1,0 +1,181 @@
+body{
+			background-image: url(image.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+		nav{
+			background-color: white;
+			overflow: hidden;
+		}
+		nav ul{
+			float: right;
+			list-style-type: none;
+
+		}
+		nav ul li{
+			display: inline-block;
+		}
+		nav ul li a{
+			text-decoration: none;
+			margin: 15px;
+			padding: 15px;
+			font-size: 20px;
+			color: black;
+		}
+		nav ul li a:hover{
+			background-color: green;
+			color: white;
+		}
+		nav ul li.active a{
+			background-color: green;
+			color: white;
+		}
+		div{
+			background-color: green;
+			overflow: hidden;
+		}
+		div ul{
+			float: right;
+			list-style-type: none;
+		}
+		div ul li{
+			display: inline-block;
+		}
+		div ul li a{
+			text-decoration: none;
+			margin: 15px;
+			padding: 15px;
+			font-size: 20px;
+			color: black;
+		}
+		div ul li a:hover{
+			background-color: red;
+			color: white;
+		}
+		.container{
+			width: 500px;
+			height: 408px;
+			background-color: white;
+			float:right;
+			margin-right: 40px;
+		}
+		header{
+			background-color: lightgray;
+			font-size: 20px;
+		}
+		.box{
+			background-color: white;
+			border: solid;
+			margin: 10px;
+			border-color: lightgray;
+		}
+		.more{
+			border: solid;
+			border-color: black;
+			background-color: white;
+			margin-left: 180px;
+			margin-right: 180px;
+			margin-bottom: 10px;
+		}
+		.paras{
+			height: 354px;
+			width: 1530;
+			margin-top: 408px;
+			background-color: lightgray;
+		}
+		.amit{
+			background-color: lightgray;
+			margin: 10px;
+		}
+		div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 260px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.bot{
+	background-color: gray;
+	color: white
+	
+}
+.boot{
+	color: white;
+	font-size: 35px;
+	margin-top: 15px;
+}
+.jq{
+
+
+}
+input[type=text] {
+  width: 400px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin: 10px;
+}
+#myDIV:hover {
+  background-color: coral;
+  width: 570px;
+  height: 500px;
+  padding: 100px;
+  border-radius: 50px;
+ }
+  #nav-log{
+  	background: none;
+  }
+  #box{
+		padding: 20px 30px;
+	}
+	.login-box label{
+		display: block;
+		font-size: 25px;
+		padding: 10px;
+	}
+	.login-box input {
+		width: 60%;
+		padding: 10px;
+		border: solid 1px grey;
+		border-radius: 5px;
+	}
+	.btn{
+		padding: 8px 15px;
+		background-color: white;
+		border-radius: 5px;
+		color: black;
+	}
+	.btn:hover{
+		color: lightgrey;
+	}
+	.food-h{
+		text-align: center;
+		color: black;
+	}
+	.food-step{
+		color: white;
+		font-size: 20px;
+	}
